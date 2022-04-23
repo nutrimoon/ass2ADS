@@ -1,5 +1,6 @@
 import java.util.LinkedList;  //I have only 50 from 1 ass, so here I am using java.util
 import java.util.Queue;
+import java.util.ArrayList<T>;
 public class Queue {
 
 Queue<T> example = new ArrayList<>();
