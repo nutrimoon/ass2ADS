@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.Stack;
 import java.util.ArrayList<T>;
 public class Stack {
-    Queue<T> example = new ArrayList<>();
+    Stack<T> example = new ArrayList<>();
 
     public T push(T newItem){
         example.add(newItem); //here we do not need isempty, because even to empty list we can add items
