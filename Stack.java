@@ -10,28 +10,23 @@ public class Stack {
     }
 
     public T peek(){
-        if (isEmpty() == true) {    //if isEmpty is true, which means that size is 0
-            System.out.println("EMPTY");
-            return null;
-        }
+        if (example.size()==0 {
+                System.out.println("EMPTY");
+                return null;
+            }
         return get(example.size() - 1);   //same as queue's peek
     }
 
     public T pop(){
-        if (isEmpty() == true) {
-            System.out.println("EMPTY");
-            return null;
-        }
+        if (example.size()==0 {
+                System.out.println("EMPTY");
+                return null;
+            }
         T firstElement=peek();
 
         return example.remove(firstElement); //same as queue's dequeue
     }
 
-    public boolean isEmpty () {
-        if (example.size() == 0) {
-            return true;
-        } else {
-            return false;
-        }
+  
     }
-}
+
