@@ -5,7 +5,7 @@ public class Queue {
 
 Queue<T> example = new ArrayList<>();
         public T peek () {
-            if (isEmpty() == true) {    //if isEmpty is true, which means that size is 0
+            if (example.size()==0) {   
                 System.out.println("EMPTY");
                 return null;
             }
@@ -18,7 +18,7 @@ Queue<T> example = new ArrayList<>();
         }
 
         public T dequeue () {
-            if (isEmpty() == true) {
+            if (example.size()==0 {
                 System.out.println("EMPTY");
                 return null;
             }
@@ -27,13 +27,7 @@ Queue<T> example = new ArrayList<>();
             return example.remove(firstElement); //or we can write remove(0), but I  first retrieve then remove
         }
 
-        public boolean isEmpty () {
-            if (example.size() == 0) {
-                return true;
-            } else {
-                return false;
-            }
-        }
+       
     }
 
 
