@@ -9,7 +9,7 @@ Queue<T> example = new ArrayList<>();
                 System.out.println("EMPTY");
                 return null;
             }
-            return get(example.size - 1);
+            return get(example.size() - 1);
         }
 
         public T enqueue (T newItem){
@@ -28,7 +28,7 @@ Queue<T> example = new ArrayList<>();
         }
 
         public boolean isEmpty () {
-            if (example.size == 0) {
+            if (example.size() == 0) {
                 return true;
             } else {
                 return false;
